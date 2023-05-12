@@ -15,3 +15,4 @@ target_link_libraries(WorldGenerator3D glfw)
 target_link_libraries(WorldGenerator3D glm)
 
 include_directories(incl)
+include_directories(src/include)
