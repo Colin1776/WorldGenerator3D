@@ -11,7 +11,7 @@
 
 #define STB_IMAGE_IMPLEMENTATION
 #include <stb_image.h>
-#include "types.h"
+#include "include/types.h"
 #include "file.cpp"
 #include "camera.cpp"
 #include "shader.cpp"

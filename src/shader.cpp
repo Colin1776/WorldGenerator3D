@@ -1,4 +1,4 @@
-#include "shader.h"
+#include "include/shader.h"
 
 void compile_shader(const char* shader_source, u32 shader)
 {
