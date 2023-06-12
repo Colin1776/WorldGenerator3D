@@ -9,11 +9,13 @@ struct Camera
     float yaw;
     float pitch;
     float fov;
+    bool disabled;
 
     void init();
     void move_forward(float);
     void move_right(float);
     void move_up(float);
+    void print();
 };
 
 #endif

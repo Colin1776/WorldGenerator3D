@@ -8,6 +8,7 @@ void Camera::init()
     yaw = -90.0f;
     pitch = 0.0f;
     fov = 90.0f;
+    disabled = true;
 }
 
 void Camera::move_forward(float amount)
@@ -24,4 +25,10 @@ void Camera::move_right(float amount)
 void Camera::move_up(float amount)
 {
     pos += glm::vec3(0.0f, amount, 0.0f);
+}
+
+void Camera::print()
+{
+    printf("Pos: %f, %f, %f\n", pos.x, pos.y, pos.z);
+    printf("Yaw: %f, Pitch: %f\n", yaw, pitch);
 }
